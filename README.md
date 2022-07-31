@@ -54,7 +54,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://single-price-grid-component-demo.netlify.app/)
+- Solution URL: (https://four-card-feature-section-demo.netlify.app/)
 
 ## My process
 
@@ -70,4 +70,4 @@ Users should be able to:
 
 - Portfolio - [Brenden Henry Evans](https://brendenevans.com)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/09c59650-50f4-4cbf-829e-80c59bcf0da6/deploy-status)](https://app.netlify.com/sites/single-price-grid-demo-app/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/271f444e-a9f7-45ef-90ca-a887df0a3c78/deploy-status)](https://app.netlify.com/sites/four-card-feature-section-demo/deploys)
