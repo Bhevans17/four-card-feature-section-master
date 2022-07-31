@@ -1,12 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 $theme-colors: (
-    "cyan": hsl(179, 62%, 43%),
+    "red": hsl(0, 78%, 62%),
+    "cyan": hsl(180, 62%, 55%),
+    "orange": hsl(34, 97%, 64%),
+    "blue": hsl(212, 86%, 64%),
+    "very-dark-blue": hsl(234, 12%, 34%),
+    "grayish-blue": hsl(229, 6%, 66%),
+    "very-light-blue": hsl(0, 0%, 98%)
 );
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
 body {
-    font-family: 'Karla', sans-serif;
-    background-color: #E6EFF6;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+.card {
+    transition: 0.6s;
+
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-15px);
+        transition: 0.6s;
+    }
+}
+
+#supervisor_card {
+    border-top: 4px solid hsl(180, 62%, 55%) !important;
+
+    @media only screen and (min-width: 992px) {
+        position: relative;
+        top: 50%;
+    }
+}
+
+#team_card {
+    border-top: 4px solid hsl(0, 78%, 62%) !important;
+}
+
+#karma_card {
+    border-top: 4px solid hsl(34, 97%, 64%) !important;
+
+    @media only screen and (min-width: 992px) {
+        position: relative;
+        top: 50%;
+    }
+}
+
+#calc_card {
+    border-top: 4px solid hsl(212, 86%, 64%) !important;
 }
